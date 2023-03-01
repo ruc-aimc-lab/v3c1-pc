@@ -12,6 +12,8 @@ V3C1-Pseudo-Caption (V3C1-PC) is an auto-generated video description dataset for
 
 ## V3C1-PC Citation
 
+The dataset was developed during [our participation](https://www-nlpir.nist.gov/projects/tvpubs/tv22.papers/rucmm.pdf) in the TRECVID 2022 [Ad-hoc Video Search (AVS)](https://www-nlpir.nist.gov/projects/tv2022/avs.html) task.
+
 ```
 @inproceedings{tv22-rucmm,
 title = {Renmin University of China at TRECVID 2022: Improving Video Search by Feature Fusion and Negation Understanding},
