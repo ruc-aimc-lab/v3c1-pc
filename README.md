@@ -16,7 +16,7 @@ The dataset was developed during [our participation](https://www-nlpir.nist.gov/
 
 ```
 @inproceedings{tv22-rucmm,
-title = {Renmin University of China at TRECVID 2022: Improving Video Search by Feature Fusion and Negation Understanding},
+title = {Renmin {U}niversity of {C}hina at {TRECVID} 2022: Improving Video Search by Feature Fusion and Negation Understanding},
 author = {Xirong Li and Aozhu Chen and Ziyue Wang and Fan Hu and Kaibin Tian and Xinru Chen and Chengbo Dong},
 booktitle = {TRECVID 2022 Workshop},
 year = {2022},
