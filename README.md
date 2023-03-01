@@ -1,13 +1,13 @@
 # V3C1-PC
 
-V3C1-Pseudo-Caption (V3C1-PC) is an auto-generated video description dataset for (pre-)training video-text matching models. Building captions based on [BLIP](https://github.com/salesforce/BLIP). Specifically, for each video in V3C1, we use BLIP to generate a caption for each sampled frame.  A *N*-frame video will have *N* captions. We remove duplicate caption and then use [CLIP](https://github.com/openai/CLIP) to rank the remaining captions in terms of their cross-modality similarity to the video. The top-3 ranked captions are preserved as the video’s pseudo captions.
+V3C1-Pseudo-Caption (V3C1-PC) is an auto-generated video description dataset for (pre-)training video-text matching models. Pseudo captions for a given video in the [V3C1](https://www-nlpir.nist.gov/projects/tv2022/data.html) collection were generated as follows. We used [BLIP](https://github.com/salesforce/BLIP) to generate a caption for each sampled frame.  An *n*-frame video will have *n* captions. We removed duplicate caption and then used [CLIP](https://github.com/openai/CLIP) to rank the remaining captions in terms of their cross-modality similarity to the video. The top-3 ranked captions were preserved as the video’s pseudo captions. V3C1-PC consists of 436,204 captions for 219,531 video shots.
+
+![](pc.jpg)
 
 ## Download
 
-[Google Drive Link](https://drive.google.com/file/d/1X8x4Fkd7v_9cKIzA4x9Qr_Sh8UtaF2sa/view?usp=sharing)
++ Caption data (20MB): [Google Drive Link](https://drive.google.com/file/d/1X8x4Fkd7v_9cKIzA4x9Qr_Sh8UtaF2sa/view?usp=sharing)
 
-## Example
-![](pc.jpg)
 
 
 ## V3C1-PC Citation
